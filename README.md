@@ -7,13 +7,16 @@ Windows Explorer and Desktop environment uses a footprint that can be significan
 * Proceed at your own risk, this is intended for power users only.
 * Read and review the scripts before executing them, don't trust anyone who hand you over scripts to execute.
 * When Windows boots to Steam Big Picture Mode, it will won't be able to open the following:
-- Task bar
-- Start menu
-- Search functions
-- Gamebar
-- Notifiction Center
-- Control Center
-- Explorer
+  - Task bar
+  - Start menu
+  - Search functions
+  - Gamebar
+  - Notifiction Center
+  - Control Center
+  - Explorer
+
+* For Handheld settings, I rely on [Handheld companion](https://github.com/Valkirie/HandheldCompanion/tree/main) since Windows Settings and Game bar won't work anymore.
+* In case of Windows updates or maintenance, use Reboot To Windows Explorer to go back to windows and run normal chores.
 
 # Instructions:
 1. Copy the scripts to the following path: C:\development
