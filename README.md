@@ -18,6 +18,12 @@ Windows Explorer and Desktop environment uses a footprint that can be significan
 * For Handheld settings, I rely on [Handheld companion](https://github.com/Valkirie/HandheldCompanion/tree/main) since Windows Settings and Game bar won't work anymore.
 * In case of Windows updates or maintenance, use Reboot To Windows Explorer to go back to windows and run normal chores.
 
+# Prerequisites 
+* Enable running powershell scripts:
+  - Start Windows PowerShell with the "Run as Administrator" option. 
+  - Enable running unsigned scripts by entering: set-executionpolicy remotesigned
+* Add new String to regedit at the "Shell" with value "explorer.exe" at "Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon"
+
 # Instructions:
 1. Copy the scripts to the following path: C:\development
 2. Start steam in regular mode and from the top bar, select Games -> Add non-steam Games to my library
